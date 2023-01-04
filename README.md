@@ -3,8 +3,7 @@ The 8 Week SQL Challenge is a virtual data apprenticeship program by Danny Ma
 
 https://8weeksqlchallenge.com/getting-started/
 
-# CASE-STUDY-8-WEEK-SQL-CHALLENGE
- > This repository contaisS my submission by solving Case studies on the **#8WEEKSQLCHALLENGE** given by [DANNY MA](https://www.linkedin.com/in/datawithdanny/).
+ > This repository contais my submission of Case studies on the **#8WEEKSQLCHALLENGE** given by [DANNY MA](https://www.linkedin.com/in/datawithdanny/).
 
  > All case study requirements and resources are available in the [website](https://8weeksqlchallenge.com/)
 
