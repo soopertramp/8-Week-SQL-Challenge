@@ -15,7 +15,7 @@
  # **:file_folder: DATASETS**
  Danny has shared with you 3 key datasets for this case study:
  
-   ### **1. SALES**
+### **1. SALES**
 
  <details><summary>
  View Table
@@ -42,7 +42,7 @@ The sales table captures all customer_id level purchases with an corresponding o
 
  </details>
     
- ### **2. MENU**
+### **2. MENU**
 
  <details><summary>
  View Table
@@ -57,7 +57,7 @@ The menu table maps the product_id to the actual product_name and price of each 
  
  </details>
  
- ### **3. MEMBERS**
+### **3. MEMBERS**
 
  <details><summary>
  View Table
@@ -71,7 +71,7 @@ The menu table maps the product_id to the actual product_name and price of each 
 
  </details>
 
- # :speech_balloon: CASE STUDY QUESTIONS
+# :speech_balloon: CASE STUDY QUESTIONS
  
  1. What is the total amount each customer spent at the restaurant?
  2. How many days has each customer visited the restaurant?
@@ -84,7 +84,7 @@ The menu table maps the product_id to the actual product_name and price of each 
  9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
  10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A   and B have at the end of January?
  
- ## **:dart: INSIGHTS GENERATED**
+## **:dart: INSIGHTS GENERATED**
  1. Ramen was the most favorite dish/ ordered item by all the customers with ordered 8 times.
  2. Customer with Id 'A' ordered the most while Customer with ID 'B' spent the least amount
  3. Customer with Id 'B' visited more in the restaurant i.e., **6 times**.
