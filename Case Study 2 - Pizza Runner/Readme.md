@@ -1,43 +1,59 @@
-# :ramen: Case Study 1 - Danny's Diner
+# :ramen: Case Study 2 - Pizza Runner
 
 ## Introduction
-> Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
+> Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)
 
-> Danny’s Diner is in need of your assistance to help the restaurant stay afloat - the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
+> Danny was scrolling through his Instagram feed when something really caught his eye - “80s Retro Styling and Pizza Is The Future!”
 
-## Problem Statement
-- Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.
+? Danny was sold on the idea, but he knew that pizza alone was not going to help him get seed funding to expand his new Pizza Empire - so he had one more genius idea to combine with it - he was going to Uberize it - and so Pizza Runner was launched!
 
-* He plans on using these insights to help him decide whether he should expand the existing customer loyalty program - additionally he needs help to generate some basic datasets so his team can easily inspect the data without needing to use SQL.
-
-+ Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!
+> Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
 
  # **:file_folder: Datasets**
- Danny has shared with you 3 key datasets for this case study:
+ Danny has shared with you 6 key datasets for this case study:
  
-### **1. SALES**
+### **1. RUNNERS**
 
  <details><summary>
  View Table
  </summary>
-The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
+The runners table shows the registration_date for each new runner
 
- | customer_id  | order_date | product_id |
- | -----------  | ---------- | ---------- |
- | A	          | 2021-01-01 | 1 |
- | A	          | 2021-01-01 | 2 |
- | A	          | 2021-01-07 | 2 |
- | A	          | 2021-01-10 | 3 |
- | A	          | 2021-01-11 | 3 |
- | A	          | 2021-01-11 | 3 |
- | B	          | 2021-01-01 | 2 |
- | B	          | 2021-01-02 | 2 |
- | B	          | 2021-01-04 | 1 |
- | B          	| 2021-01-11 | 1 |
- | B	          | 2021-01-16 | 3 |
- | B	          | 2021-02-01 | 3 |
- | C	          | 2021-01-01 | 3 |
- | C	          | 2021-01-01 | 3 |
- | C          	| 2021-01-07 | 3 |
+| runner_id	| registration_date |
+| ----------| ----------------- |
+| 1	        | 2021-01-01
+| 2	        | 2021-01-03
+| 3	        | 2021-01-08
+| 4	        | 2021-01-15
 
- </details>
+</details>
+
+### **2. CUSTOMER ORDERS**
+
+<details><summary>
+ View Table
+ </summary>
+Customer pizza orders are captured in the customer_orders table with 1 row for each individual pizza that is part of the order.
+
+The pizza_id relates to the type of pizza which was ordered whilst the exclusions are the ingredient_id values which should be removed from the pizza and the extras are the ingredient_id values which need to be added to the pizza.
+
+Note that customers can order multiple pizzas in a single order with varying exclusions and extras values even if the pizza is the same type!
+
+The exclusions and extras columns will need to be cleaned up before using them in your queries.
+
+| order_id	 | customer_id	| pizza_id	| exclusions	| extras	| order_time|
+| ----------| ------------| ---------| -----------| -------| ----------|
+1	101	1	 	 	2021-01-01 18:05:02
+2	101	1	 	 	2021-01-01 19:00:52
+3	102	1	 	 	2021-01-02 23:51:23
+3	102	2	 	NaN	2021-01-02 23:51:23
+4	103	1	4	 	2021-01-04 13:23:46
+4	103	1	4	 	2021-01-04 13:23:46
+4	103	2	4	 	2021-01-04 13:23:46
+5	104	1	null	1	2021-01-08 21:00:29
+6	101	2	null	null	2021-01-08 21:03:13
+7	105	2	null	1	2021-01-08 21:20:29
+8	102	1	null	null	2021-01-09 23:54:33
+9	103	1	4	1, 5	2021-01-10 11:22:59
+10	104	1	null	null	2021-01-11 18:34:49
+10	104	1	2, 6	1, 4	2021-01-11 18:34:49
