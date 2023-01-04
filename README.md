@@ -8,14 +8,14 @@ https://8weeksqlchallenge.com/getting-started/
  > All case study requirements and resources are available in the [website](https://8weeksqlchallenge.com/)
 
 ## TABLE OF CONTENTS 
-- 🍜 CASE STUDY #1 DANNY'S DINER
-- :pizza: Case Study #2 - Pizza Runner
-- Case Study #3 - Foodie-Fi
-- Case Study #4 - Data Bank
-- Case Study #5 - Data Mart
-- Case Study #6 - Clique Bait
-- Case Study #7 - Balanced Tree Clothing Co.
-- Case Study #8 - Fresh Segments
+- 🍜 Case Study #1 Danny's Diner
+- 🍕 Case Study #2 - Pizza Runner
+- :canned_food: Case Study #3 - Foodie-Fi
+- :bank: Case Study #4 - Data Bank
+- :busts_in_silhouette: Case Study #5 - Data Mart
+- :spider_web: Case Study #6 - Clique Bait
+- :womans_clothes: Case Study #7 - Balanced Tree Clothing Co.
+- :evergreen_tree: Case Study #8 - Fresh Segments
 
 
 #### View full case study [here](https://8weeksqlchallenge.com/case-study-1/)
