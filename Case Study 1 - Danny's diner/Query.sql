@@ -97,7 +97,15 @@ FROM
     menu AS m ON m.product_id = s.product_id
 GROUP BY customer_id;
 
+Answer:
+
+Customer A spent $76.
+Customer B spent $74.
+Customer C spent $36.
+
 /*2. How many days has each customer visited the restaurant?*/
+
+
 
 SELECT 
     customer_id, COUNT(DISTINCT (order_date)) AS no_of_days_visited
