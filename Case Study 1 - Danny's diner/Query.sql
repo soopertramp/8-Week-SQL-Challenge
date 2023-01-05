@@ -1,3 +1,5 @@
+/*Creating Database*/
+
 CREATE SCHEMA dannys_diner;
 
 CREATE TABLE sales (
