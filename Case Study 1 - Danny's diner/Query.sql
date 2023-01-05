@@ -118,4 +118,10 @@ FROM
     sales
 GROUP BY customer_id;
 
+Answer:
+
+Customer A visited 4 times.
+Customer B visited 6 times.
+Customer C visited 2 times.
+
 /*3. What was the first item from the menu purchased by each customer?*/
