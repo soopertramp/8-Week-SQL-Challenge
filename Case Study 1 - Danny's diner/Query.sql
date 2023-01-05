@@ -87,3 +87,10 @@ FROM
     menu AS m ON m.product_id = s.product_id
 GROUP BY customer_id;
 
+-- 2. How many days has each customer visited the restaurant?
+
+SELECT 
+    customer_id, COUNT(DISTINCT (order_date)) AS no_of_days_visited
+FROM
+    sales
+GROUP BY customer_id;
