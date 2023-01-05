@@ -94,3 +94,5 @@ SELECT
 FROM
     sales
 GROUP BY customer_id;
+
+-- 3. What was the first item from the menu purchased by each customer?
