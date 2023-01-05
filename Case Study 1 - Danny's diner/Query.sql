@@ -79,3 +79,11 @@ FROM
     menu AS m using (product_id)
 GROUP BY customer_id;
     
+SELECT 
+    customer_id, SUM(price) AS customer_spending
+FROM
+    sales AS s
+        JOIN
+    menu AS m ON m.product_id = s.product_id
+GROUP BY customer_id;
+
