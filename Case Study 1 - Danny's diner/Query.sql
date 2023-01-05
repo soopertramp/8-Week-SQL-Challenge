@@ -53,7 +53,8 @@ SELECT
     *
 FROM
     menu;
-  
+
+/*Creating Members Table*/
 
 CREATE TABLE members (
     customer_id VARCHAR(1),
