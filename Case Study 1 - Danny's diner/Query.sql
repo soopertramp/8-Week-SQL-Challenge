@@ -76,6 +76,9 @@ FROM
    Case Study Questions
    --------------------
 
+We use the SUM and GROUP BY functions to find out total spent for each customer and JOIN function because 
+customer_id is from sales table and price is from menu table.
+
 1. What is the total amount each customer spent at the restaurant?*/
 
 SELECT 
@@ -94,7 +97,7 @@ FROM
     menu AS m ON m.product_id = s.product_id
 GROUP BY customer_id;
 
--- 2. How many days has each customer visited the restaurant?
+/*2. How many days has each customer visited the restaurant?*/
 
 SELECT 
     customer_id, COUNT(DISTINCT (order_date)) AS no_of_days_visited
@@ -102,4 +105,4 @@ FROM
     sales
 GROUP BY customer_id;
 
--- 3. What was the first item from the menu purchased by each customer?
+/*3. What was the first item from the menu purchased by each customer?*/
