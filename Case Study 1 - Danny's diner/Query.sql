@@ -33,6 +33,8 @@ SELECT
     *
 FROM
     sales;
+    
+/*Creating Menu Table*/
 
 CREATE TABLE menu (
     product_id INTEGER,
