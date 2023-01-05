@@ -105,7 +105,12 @@ Customer C spent $36.
 
 /*2. How many days has each customer visited the restaurant?*/
 
+Use DISTINCT and COUNT with count function to find out number of days customer visited the restaurant.
 
+If we do not use DISTINCT for order_date, the number of days may be repeated. 
+
+For example, if customer  A visited the restaurant twice on ‘2021–01–07’, then number of days 
+may have counted as 2 instead of 1 day.
 
 SELECT 
     customer_id, COUNT(DISTINCT (order_date)) AS no_of_days_visited
