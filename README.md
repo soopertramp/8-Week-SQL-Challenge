@@ -1,4 +1,4 @@
-# 8-Week-SQL-Challenge by [DANNY MA](https://www.linkedin.com/in/datawithdanny/).
+# 8-Week-SQL-Challenge by [Danny Ma](https://www.linkedin.com/in/datawithdanny/).
 The 8 Week SQL Challenge is a virtual data apprenticeship program by Danny Ma
 
  > This repository contais my submission of Case studies on the **#8WEEKSQLCHALLENGE** given by [DANNY MA](https://www.linkedin.com/in/datawithdanny/).
