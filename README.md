@@ -5,7 +5,7 @@ The 8 Week SQL Challenge is a virtual data apprenticeship program by Danny Ma
 
  > All case study requirements and resources are available in the [website of Danny Ma](https://8weeksqlchallenge.com/)
 
-## TABLE OF CONTENTS 
+### TABLE OF CONTENTS 
 - 🍜 Case Study #1 Danny's Diner
 - 🍕 Case Study #2 - Pizza Runner
 - :canned_food: Case Study #3 - Foodie-Fi
