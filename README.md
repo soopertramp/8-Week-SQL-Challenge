@@ -16,5 +16,5 @@ The 8 Week SQL Challenge is a virtual data apprenticeship program by Danny Ma
 - :evergreen_tree: Case Study #8 - Fresh Segments
 
 
-#### View full case study [here](https://8weeksqlchallenge.com/case-study-1/)
+### View full case study [here](https://8weeksqlchallenge.com/case-study-1/)
 
